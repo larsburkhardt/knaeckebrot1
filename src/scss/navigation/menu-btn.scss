@@ -1,0 +1,5 @@
+#menu-btn {
+    @include mq('tablet-wide') {
+        display: none;
+    }
+}

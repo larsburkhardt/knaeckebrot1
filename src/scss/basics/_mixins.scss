@@ -1,0 +1,36 @@
+// Media Queries
+
+$breakpoints: (
+    "phone":        30em,       // 480px
+    "phablet":      35em,       // 560px
+    "tablet-small": 40em,       // 640px
+    "tablet":       48em,       // 768px, col-sm-*
+    "tablet-wide":  64em,       // 1024px, col-md-*
+    "desktop":      80em,       // 1280px, col-lg-*
+    "desktop-wide": 90em        // 1440px
+);
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+@mixin delay($rule, $number, $value) {
+  @for $i from 1 to ($number + 1) {
+    &:nth-child(#{$i}) {
+      -webkit-#{$rule}-delay: (#{$i*$value});
+      #{$rule}-delay: (#{$i*$value});
+    }
+  }
+}
+// Usage:
+// .results div{
+//   @include delay(animation, 8, 0.25s);
+// }
+

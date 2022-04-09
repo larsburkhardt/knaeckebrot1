@@ -1,0 +1,13 @@
+@import "typography/font-face";
+@import "basics/variables";
+
+
+// Title in Editor
+.editor-post-title__input {
+    font-family: var(--headingFont) !important;
+}
+// Blocks
+[class*="editor-block-list"] {
+    font-family: var(--textFont) !important;
+}
+

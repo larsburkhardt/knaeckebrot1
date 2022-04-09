@@ -1,0 +1,48 @@
+{
+    "name": "knaeckebrot",
+    "version": "4.3.0",
+    "description": "Basic Theme for Wordpress",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build --prod",
+        "bundle": "gulp bundle --prod"
+    },
+    "author": "Lars Burkhardt",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/register": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "browser-sync": "^2.27.7",
+        "chokidar": "^3.5.3",
+        "debug": "^4.3.4",
+        "del": "^3.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-if": "^2.0.2",
+		"gulp-imagemin": "^7.1.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-zip": "^4.2.0",
+        "mkdirp": "^1.0.4",
+        "sass": "^1.43.4",
+        "vinyl-named": "^1.1.0",
+        "webpack-stream": "^5.2.1",
+        "yargs": "^13.3.0"
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "maintained node versions"
+    ],
+    "dependencies": {
+        "jquery": "^3.5.1"
+    }
+}

@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Enable GPU Rendering */
+body {
+	transform: translateZ(0);
+	backface-visibility: hidden;
+	perspective: 1px;
+}
+
+a.skip-link {
+    left: -9999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+a.skip-link:focus, a.skip-link:active {
+    background: white;
+    color: var(--black);
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    z-index:99999999999999;
+}

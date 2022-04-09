@@ -1,0 +1,10 @@
+
+.main-navigation {
+    display: none;
+    @include mq('tablet-wide') {
+        display: block;
+    }
+    &.toggled {
+        display: block;
+    }
+}

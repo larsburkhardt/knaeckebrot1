@@ -1,0 +1,49 @@
+html {
+    font-family: $textFont; 
+}
+body {
+    font-size: var(--normal-size);
+    }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $headingFont !important;
+    font-weight: 700;
+}
+
+p, li {
+    font-weight: 400;
+}
+
+h1, .h1 {
+    font-size: var(--size-h1);
+    min-height: 0vw;
+}
+
+h2, .h2 {
+    font-size: var(--size-h2);
+    min-height: 0vw;
+}
+
+h3, .h3 {
+    font-size: var(--size-h3);
+    min-height: 0vw;    
+}
+
+h4, .h4 {
+    font-size: var(--size-h4);
+    min-height: 0vw;    
+}
+
+h5, .h5 {
+    font-size: var(--size-h5);
+	min-height: 0vw;
+}
+
+a {
+    color: $color1;
+    
+    &:hover {
+        color: $color1-light;
+    }
+
+}

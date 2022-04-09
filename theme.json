@@ -1,0 +1,150 @@
+{
+    "version": 1,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "color1",
+                    "color": "#ff0000",
+                    "name": "color1"
+                },
+                {
+                    "slug": "color1-light",
+                    "color": "#ff4444",
+                    "name": "color1-light"
+                },
+                {
+                    "slug": "color1-dark",
+                    "color": "#cc0000",
+                    "name": "color1-dark"
+                },
+                {
+                    "slug": "color2",
+                    "color": "#0000ff",
+                    "name": "color2"
+                },
+                {
+                    "slug": "color2-light",
+                    "color": "#4444ff",
+                    "name": "color2-light"
+                },
+                {
+                    "slug": "color2-dark",
+                    "color": "#0000cc",
+                    "name": "color2-dark"
+                },
+                {
+                    "slug": "color3",
+                    "color": "#00ff00",
+                    "name": "color3"
+                },
+                {
+                    "slug": "color3-light",
+                    "color": "#44ff44",
+                    "name": "color3-light"
+                },
+                {
+                    "slug": "color3-dark",
+                    "color": "#00cc00",
+                    "name": "color3-dark"
+                },
+                {
+                    "slug": "gray",
+                    "color": "#777777",
+                    "name": "gray"
+                },
+                {
+                    "slug": "gray-light",
+                    "color": "#dddddd",
+                    "name": "gray-light"
+                },
+                {
+                    "slug": "gray-dark",
+                    "color": "#333333",
+                    "name": "gray-dark"
+                },
+                {
+                    "slug": "black",
+                    "color": "#000000",
+                    "name": "black"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "white"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "color1-to-gray",
+                    "gradient": "linear-gradient(135deg, var(--wp-preset--color--green), var(--wp-preset--color--gray))",
+                    "name": "color1 to gray"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Latina, sans-serif",
+                    "slug": "main-font",
+                    "name": "Main font"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "extra-small",
+                    "size": ".625rem",
+                    "name": "Extra small"
+                },
+                {
+                    "slug": "small",
+                    "size": ".875rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "normal",
+                    "size": "1rem",
+                    "name": "Normal"
+                },
+                {
+                    "slug": "large",
+                    "size": "1.25rem",
+                    "name": "Large"
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "2rem",
+                    "name": "Extra large"
+                },
+                {
+                    "slug": "huge",
+                    "size": "4rem",
+                    "name": "Huge"
+                },
+                {
+                    "slug": "extra-huge",
+                    "size": "6rem",
+                    "name": "Extra Huge"
+                }
+            ],
+            "customLineHeight": true,
+            "spacing": {
+                "customPadding": true,
+                "customMargin": true,
+                "units": [
+                    "px",
+                    "em",
+                    "rem",
+                    "vh",
+                    "vw",
+                    "%"
+                ]
+            }
+
+        }
+    },
+    "layout": {
+        "contentSize": "",
+        "wideSize": ""
+    }
+}

@@ -1,0 +1,93 @@
+// Container
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// Text classes
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-small {
+    font-size: 0.75rem;
+}
+
+.text-large {
+    font-size: 1.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+// Colors
+
+.primary {
+    color: $color1;
+}
+
+.secondary {
+    color: $color2;
+}
+
+.white {
+    color: $white;
+}
+
+.lightgray {
+    color: $gray-light;
+}
+
+.darkgray {
+    color: $gray-dark;
+}
+
+.black {
+    color: $black;
+}
+
+// Buttons
+
+.button {
+    display: inline-block;
+    padding: .75rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: $color1;
+    transition: .5s;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+
+    &:hover {
+        background: $gray-dark;
+    }
+}
+
+// Forms
+
+label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $color1;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    padding:.75rem;
+    border: 1px solid $gray-dark;
+}
