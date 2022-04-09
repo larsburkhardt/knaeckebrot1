@@ -1,6 +1,6 @@
 {
     "name": "knaeckebrot",
-    "version": "4.3.0",
+    "version": "1.12.0",
     "description": "Basic Theme for Wordpress",
     "main": "index.js",
     "directories": {
