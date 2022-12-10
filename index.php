@@ -6,7 +6,7 @@
 
 <main>
     <div class="container">
-        <div id="content" class="<?php echo $sidebar_main === true ? 'sidebar-active' : '';?>" role="main">
+        <div id="content" class="<?php echo $sidebar_main === true ? 'sidebar-active' : '';?>">
             <?php get_template_part('template-parts/loop/loop'); ?>
         </div>
 
